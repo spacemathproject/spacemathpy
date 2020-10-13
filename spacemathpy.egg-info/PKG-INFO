@@ -13,7 +13,7 @@ Description:
         
         You can try spacemathpy with binder only needs click in the next icon.
         
-        [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/spacemathproject/SpaceMath/MoyPython)
+        [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/spacemathproject/spacemathpy/master)
         
         and then open some example inside of `Examples` folder.
         ## Installation
@@ -22,27 +22,28 @@ Description:
         For more details click [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
         #### Ubuntu
         Open a terminal and write the following comands
-        '''
+        ```
         sudo apt update
         sudo apt install git
-        '''
+        ```
         #### Windows
         Click on [Git for windows](https://git-scm.com/download/win) and the .exe file will be downloaded, finally execute it.
         
         #### MacOs
         There are several ways to install Git on a Mac. The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the Terminal the very first time.
-        
+        ```
         $ git --version
-        
+        ```
         If you don’t have it installed already, it will prompt you to install it.
         
         
-        ###Install spacemathpy 
+        ### Install spacemathpy 
         
         #### Recommended installation
-        From MoyPython branch of SpaceMath github repository we install spacemath in a terminal with the next command
-        
-        `pip install git+https://github.com/spacemathproject/SpaceMath.git@MoyPython`
+        From spacemathpy github repository we install spacemath in a terminal with the next command
+        ```
+        pip install git+https://github.com/spacemathproject/spacemathpy
+        ```
         
         #### Alternative installation
         Our package is a library for python 3 users that can be installed if you download `MoyPython` branch of SpaceMath github repository with `Download Zip` buttom.

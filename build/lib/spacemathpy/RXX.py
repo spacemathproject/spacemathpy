@@ -46,7 +46,7 @@ def issymbolic(*args):
     sympy instance, otherwise return False.
     
     '''
-    from sympy import core,Number
+    from sympy import core
     return True in [isinstance(args[i],tuple(core.all_classes)) for i in range(len(args))]
 
 # Decay width of the Scalar boson into fermion pair
