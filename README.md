@@ -37,17 +37,15 @@ pip install git+https://github.com/spacemathproject/spacemathpy
 ```
 
 #### Alternative installation
-Our package is a library for python 3 users that can be installed if you download `MoyPython` branch of SpaceMath github repository with `Download Zip` buttom.
+Our package is a library for python 3 users that can be installed if you download `spacemathpy` version of SpaceMath github repository with `Download Zip` buttom.
 
-![MoyPython](github-MoyPython.png)
-
-The folder downloaded is `SpaceMath-MoyPython.zip`. After of uncompress it, open in a terminal `dist` folder inside of `\SpaceMath-MoyPython\dist` and finally you can run 
+The file downloaded is `spacemathpy-main.zip`. After of uncompress it, open in a terminal `dist` folder inside of `\spacemathpy-main\dist` and finally you can run 
 
 `pip install spacemathpy-0.1.tar.gz`
 
 Congratulations spacemathpy is installed.
 
-You can use spacemathpy in scripts but is recomendable use jupyter notebook to ease each work, you will find 2HDM example in `\SpaceMath\Examples` folder
+You can use spacemathpy in scripts but is recomendable use jupyter notebook to ease each work, you will find 2HDM example in `\spacemathpy-main\Examples` folder
 
 spacemathpy depends on numpy, pandas, sympy, and matplotlib to properly works, but when you install spacemathpy all of them are installed automatically.
 
