@@ -4,7 +4,7 @@ This branch of SpaceMath project is an alternative implementation in python 3.*.
 
 You can try spacemathpy with binder only needs click in the next icon.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/spacemathproject/spacemathpy/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/spacemathproject/spacemathpy/main)
 
 and then open some example inside of `Examples` folder.
 ## Installation
